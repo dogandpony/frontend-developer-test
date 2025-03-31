@@ -56,7 +56,7 @@ For example, these URLs will give you different size images from the same source
 1. The developed page should aim for a high degree of precision, closely matching the provided design to ensure a pixel-perfect implementation.
 1. Be mindful of the page's loading performance.
 1. Please ensure your readme file contains valid and simple instructions if any special setup is needed.
-1. Ensure your project works both in dev and after build (`yarn build`).
+1. Ensure your project works both in dev and after build (`yarn build && yarn start`).
 1. Verify the full functionality of your page prior to submission.
 
 ## Deadline
