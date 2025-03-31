@@ -29,9 +29,9 @@ To recreate the design and funcionality of [the design](https://www.figma.com/de
 Using the Nex.js project you set up following the instructions above, create [the design](https://www.figma.com/design/HLTG9j1j1L4UrLdZDuPRkW/Front-end-Test-Workflow-Page?node-id=10850-397&p=f&t=7uqZS4yRSuramerm-0) using [Next.js](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/).
 
 __src/app/page.js__  
-This will be the homepage you are creating.  
-Please fetch the data for the page from `http://dps-dev-test.n.dps.sh/data.json` and __set the revalidate value to 60__.  
-The JSON response will contain the content and images needed for the page you are creating.
+This file will contain the page you are creating.  
+Please fetch the data for the page from `https://dps-dev-test.n.dps.sh/data.json` and __set the revalidate value to 60__.  
+The JSON response will contain the content and images needed for the page.
 
 __src/app/layout.js__  
 Adjust this file as needed to remove what you don't need and import the correct font-family for this project.
@@ -51,6 +51,7 @@ For example, these URLs will give you different size images from the same source
 1. The carousel must be fully functional. Refer to the handoff annotations in the Figma file for specific requirements.
 1. You are not expected to build everything from scratch. Feel free to leverage third-party libraries for features such as the carousel and select fields.
 1. The newsletter form does not need to be functional but should adhere to a semantic and accessible structure.
+1. The language and currency select inputs should function and be accessible but they do not need to be integrated into any sort of internationalization feature.
 1. Specific guidelines for CSS transitions have not been provided. Please incorporate transitions where appropriate, such as on link and button hover states, and adjust the duration and timing to achieve a polished and cohesive user experience.
 1. Elements and sections should feature smooth transitions as they enter the viewport. While the exact implementation is left to your discretion, this is an opportunity to showcase your design sensibilities by delivering animations and transitions that enhance the overall look and feel of the application.
 1. The developed page should aim for a high degree of precision, closely matching the provided design to ensure a pixel-perfect implementation.
