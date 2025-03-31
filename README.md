@@ -42,9 +42,9 @@ Adjust this file as needed to remove what you don't need and import the correct 
 1. Please use Tailwind for the styling. While handwritten CSS and Tailwind JIT can be used, they should be avoided unless absolutely necessary. Feel free to create a tailwind.config.js file and adjust anything you need.
 1. All images provided in the JSON data use [Imgix](https://www.imgix.com/). This means image manipulation can and should be used to ensure you are using the proper [image sizes](https://docs.imgix.com/en-US/apis/rendering/size), so you're not loading images that are larger and heavier than necessary ([keep device pixel ratio in mind](https://docs.imgix.com/en-US/apis/rendering/device-pixel-ratio)).
 For example, these URLs will give you different size images from the same source image:  
-    * Original/source: https://dps-dev-test.imgix.net/image-hero.png
-    * Resized: https://dps-dev-test.imgix.net/image-hero.png?w=200
-    * Resized and cropped: https://dps-dev-test.imgix.net/image-hero.png?w=200&h=200&fit=crop
+    * https://dps-dev-test.imgix.net/image-hero.png (original/source)
+    * https://dps-dev-test.imgix.net/image-hero.png?w=200 (resized)
+    * https://dps-dev-test.imgix.net/image-hero.png?w=200&h=200&fit=crop (resized and cropped)
 1. Maintain a well-organized codebase to ensure clarity and ease of maintenance.
 1. Create reusable components wherever possible to minimize code duplication.
 1. Prioritize semantic HTML and accessibility. Ensure that the entire page and its elements are fully navigable via keyboard (e.g., using the Tab key and arrow keys where applicable).
