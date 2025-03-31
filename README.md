@@ -45,6 +45,7 @@ For example, these URLs will give you different size images from the same source
     * https://dps-dev-test.imgix.net/image-hero.png (original/source)
     * https://dps-dev-test.imgix.net/image-hero.png?w=200 (resized)
     * https://dps-dev-test.imgix.net/image-hero.png?w=200&h=200&fit=crop (resized and cropped)
+1. Keep SEO in mind (the JSON response has SEO information in it).
 1. Maintain a well-organized codebase to ensure clarity and ease of maintenance.
 1. Create reusable components wherever possible to minimize code duplication.
 1. Prioritize semantic HTML and accessibility. Ensure that the entire page and its elements are fully navigable via keyboard (e.g., using the Tab key and arrow keys where applicable).
